@@ -1,0 +1,300 @@
+/************************************************************************************
+smaller than 1199
+*************************************************************************************/
+@media screen and (max-width: 1199px) {
+
+
+
+.wrapper{
+	  width:96%;
+	}
+	
+
+nav ul li a{ padding:0px 22px; }
+
+
+.index-image-popup h3{ font-size:18px; line-height:20px; }
+
+
+/* ------------ Start Bottom ------------ */			
+
+.bottom-mid{
+			width:42%;
+			padding:0px 0px 25px 4%;
+			}
+			
+/* ------------ End Bottom ------------ */
+	
+	
+}
+
+
+
+/************************************************************************************
+smaller than 1023
+*************************************************************************************/
+@media screen and (max-width: 1023px) {
+
+/* ----------- Start Header ----------- */
+	
+.logo{
+	 width:100%;
+	 text-align:center;
+	}
+	
+.header-right{
+			width:100%;
+			}
+	
+	.calltoday{
+				padding:25px 0px 0px 0px;
+				text-align:center;
+				}
+		
+	.header-button{
+					width:auto;
+					padding:25px 0px 0px 0px;
+					float:right;
+					}
+				
+/* ----------- End Header ----------- */
+
+
+
+nav ul li{ font-size:14px;  }
+nav ul li a{ padding:0px 19px; }
+
+
+
+/* ------------ Start Bottom ------------ */
+
+section.bottom{
+			 padding:30px 0px 20px 0px;
+			}	
+
+.bottom-left{
+			width:100%;
+			padding:0px 0px 15px 0px;
+			text-align:center;
+			}		
+
+.bottom-mid{
+			width:100%;
+			padding:20px 0px 25px 0px;
+			text-align:center;
+			}
+			
+	.bottom-mid table tr td{ width:100%; float:left; padding:3px 0px; }
+			
+.bottom-right{
+			width:100%;
+			padding:10px 0px 25px 0px;
+			text-align:center;
+			}
+			
+/* ------------ End Bottom ------------ */
+
+
+}
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+@media screen and (max-width: 767px) {
+	
+.index-full{ margin-top:0px; }
+	
+/* ----------- Start Header ----------- */
+	
+.calltoday{
+			width:100%;
+			}
+	
+.header-button{
+				width:100%;
+				text-align:center;
+				}
+				
+.search-body{
+			width:295px;
+			right:6px;
+			bottom:-67px;
+			}
+				
+.free-case{
+			padding:15px 10px;
+			font-size:20px; line-height:20px;
+			}
+							
+/* ----------- End Header ----------- */
+
+
+/* ============ Start Navigation ============ */
+
+.index-nav-full{ background:#2e2727; }
+.nav-full{ background:#2e2727; }
+
+
+nav ul li{ font-size:16px; width:100%; line-height:40px; border:none; text-align:center; }
+	nav ul li a{ padding:0px 0px; }
+
+nav ul li ul{
+position:relative;
+width:100% !important;
+}
+
+/* ============ End Navigation ============ */
+
+
+/* ----------- Start Index Slide ----------- */
+
+section.index-header{
+					 padding:8% 2%;
+					}
+					
+	section.index-header h1{ font-size:35px; line-height:40px; }
+				
+/* ----------- End Index Slide ----------- */
+
+
+
+section.block-body{
+					 padding:30px 0px;
+					}
+
+/* -------------- Start Left ----------------- */
+
+.left{
+	  width:100%;
+	}
+	
+.image{
+	   float:none;
+	   width:100%;
+	   margin-left:0px;	   
+	  }
+	  
+/* -------------- End Left ----------------- */
+
+/* -------------- Start Right ----------------- */
+
+.right{
+	  width:100%;
+	  margin-top:30px;
+	}
+
+/* -------------- End Right ----------------- */
+
+
+
+/* ---------- Start Contact ---------- */
+
+.contact-left{
+			  width:100%;
+			  text-align:center;
+			}
+			
+	.contact-left h2{ font-size:35px; line-height:40px; }
+	
+	.contact-left table tr td{ width:100%; float:left; padding:3px 0px; }
+	
+	.contact-logo{
+				margin-top:30px;
+				}
+			
+	.contact-left ul{ width:100%; }
+		
+.contact-right{
+			  width:100%;
+			  margin-top:40px;
+			}
+			
+	.city{
+		 width:100%;
+		}
+	
+	.state{
+		   width:100%;
+		  }
+		
+/* ---------- End Contact ---------- */
+
+
+
+/* -------------- Start Blog -------------- */
+
+.blog-left{
+			width:100%;
+			}
+			
+.blog-right{
+			width:100%;
+			margin-top:30px;
+			}
+
+/* -------------- End Blog -------------- */
+					
+
+}
+
+
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+
+
+
+
+
+
+
+}
+
+
+	
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+	  
+
+
+}
+
+
+/************************************************************************************
+smaller than 479
+*************************************************************************************/
+@media screen and (max-width: 479px) {
+
+
+.index-content li{ width:100%; margin:4px 0px; }
+
+.index-image-popup h3{ padding-top:20%; }
+
+
+
+.free-case-popup{
+				width:96%;
+				padding:20px 20px;
+				}
+				
+				
+				
+.blog-post{
+			width:100%;
+			margin-bottom:30px;
+			text-align:center;
+			}
+	
+.blog-post2{
+			width:100%;
+			margin-bottom:30px;
+			text-align:center;
+			}
+
+
+}

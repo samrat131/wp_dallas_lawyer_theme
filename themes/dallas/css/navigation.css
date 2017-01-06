@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn{
+	display:none;
+}
+nav{
+	display:block;
+	}
+
+#myslidemenu2{
+	display:block;
+}
+
+@media (max-width: 767px){
+	
+nav{
+		display:none;
+	}	
+	
+.btn{
+	  width:100%;
+	  float:left;
+	  position:relative;
+	  padding:10px 0px;
+	  display:block;		  
+	  font-family: 'proxima_novasemibold'; font-size:21px; font-weight:normal; color: #FFF; line-height:25px; text-align:center; text-transform:uppercase;
+	  background: #2e2e2e;
+	  cursor:pointer;		  
+}
+
+#myslidemenu2{
+	display:none;
+	}
+	
+
+}

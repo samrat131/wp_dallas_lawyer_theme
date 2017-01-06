@@ -1,0 +1,999 @@
+/*
+Theme Name: Dallas TX Criminal Lawyer
+Theme URI: http://underscores.me/
+Author: CyberNetikz Ltd.
+Author URI: http://www.cybernetikz.com/
+Description: Dallas TX Criminal Lawyer Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: dallas
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Dallas TX Criminal Lawyer is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/*@charset "utf-8";*/
+
+*{ padding:0px; margin:0px; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{ padding:0px; margin:0px; background:#2b2828; font-family:Arial, Helvetica, sans-serif; font-weight:normal; }
+
+.header-full{ width:100%; float:left; position:relative; background:#f8f4f4; z-index:3; }
+.index-nav-full{ width:100%; float:left; position:relative; background:url(images/dcl-nav.png) left top repeat-x; z-index:2; }
+.nav-full{ width:100%; float:left; position:relative; background:url(images/dcl-nav2.png) left top repeat-x; border-bottom:1px solid #d7d7d9; z-index:2; }
+.body-full{ width:100%; float:left; position:relative; background:#f6f7f9; }
+.bottom-full{ width:100%; float:left; position:relative; background:#221f1f; }
+.footer-full{ width:100%; float:left; position:relative; background:#2b2828; }
+
+.index-full{ width:100%; float:left; position:relative; background:url(images/dcl-index-image.jpg) no-repeat; border-top:1px solid #000; /*min-height:570px;*/ background-size:cover; margin-top:-62px; }
+
+
+.wrapper{
+	  width:1200px;
+	  margin:auto;
+	  text-align:left;
+	}
+	
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('font/Proxima-Nova-Regular/proximanova-regular_2-webfont.eot');
+    src: url('font/Proxima-Nova-Regular/proximanova-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Proxima-Nova-Regular/proximanova-regular_2-webfont.woff') format('woff'),
+         url('font/Proxima-Nova-Regular/proximanova-regular_2-webfont.ttf') format('truetype'),
+         url('font/Proxima-Nova-Regular/proximanova-regular_2-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('font/Proxima-Nova-Light/proximanova-light-webfont.eot');
+    src: url('font/Proxima-Nova-Light/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Proxima-Nova-Light/proximanova-light-webfont.woff2') format('woff2'),
+         url('font/Proxima-Nova-Light/proximanova-light-webfont.woff') format('woff'),
+         url('font/Proxima-Nova-Light/proximanova-light-webfont.ttf') format('truetype'),
+         url('font/Proxima-Nova-Light/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight_italic';
+    src: url('font/Proxima-Nova-Light-Italic/proximanova-lightitalic-webfont.woff2') format('woff2'),
+         url('font/Proxima-Nova-Light-Italic/proximanova-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('font/Proxima-Nova-Semibold/proximanova-semibold_2-webfont.eot');
+    src: url('font/Proxima-Nova-Semibold/proximanova-semibold_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Proxima-Nova-Semibold/proximanova-semibold_2-webfont.woff') format('woff'),
+         url('font/Proxima-Nova-Semibold/proximanova-semibold_2-webfont.ttf') format('truetype'),
+         url('font/Proxima-Nova-Semibold/proximanova-semibold_2-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_narrowregular';
+    src: url('font/Archivo-Narrow-Regular/archivonarrow-regular-webfont.woff2') format('woff2'),
+         url('font/Archivo-Narrow-Regular/archivonarrow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_narrowbold';
+    src: url('font/Archivo-Narrow-Bold/archivonarrow-bold-webfont.woff2') format('woff2'),
+         url('font/Archivo-Narrow-Bold/archivonarrow-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo_narrowbold_italic';
+    src: url('font/Archivo-Narrow-Bold-Italic/archivonarrow-bolditalic-webfont.woff2') format('woff2'),
+         url('font/Archivo-Narrow-Bold-Italic/archivonarrow-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{ padding:0px; margin:0px; }
+p{ padding:0px; margin:0px; }
+
+address{ padding:0px; margin:0px; }
+
+pre{ padding:0px; margin:0px; }
+
+ul,ol{ padding:0px; margin:0px; }
+
+a{ color:#FF0000; text-decoration:none; }
+a img{ border:0px; }
+
+img{ max-width:100%; height:auto; }
+
+hr{ border:#FF0000; }
+
+q{ font-size:12px; }
+
+s{ color:#FF0000; }
+
+strike{ color:#F00; }
+
+sub, sup { font-size :75%; line-height:0; position:relative; vertical-align:baseline; }
+
+sup { top :-.5em; }
+
+.clear {clear:both;}	
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777;
+}
+
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+blockquote {
+  padding: 10px 20px;
+  margin:0px;
+  font-size: 17px;
+  border-left: 5px solid #eee;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+
+
+
+table, table th, table td, cellpadding, cellspacing, border{
+    border: medium none;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+h1{ font-family:Arial, Helvetica, sans-serif; font-size:36px; color: #df4b26; line-height:40px; margin-bottom:20px; }
+h2{ font-family:Arial, Helvetica, sans-serif; font-size:30px; color: #df4b26; line-height:35px; margin-bottom:20px; }
+h3{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #df4b26; line-height:30px; margin-bottom:20px; }
+h4{ font-family:Arial, Helvetica, sans-serif; font-size:18px; color: #df4b26; line-height:24px; margin-bottom:20px; }
+h5{ font-family:Arial, Helvetica, sans-serif; font-size:18px; color: #df4b26; line-height:18px; margin-bottom:20px; }
+h6{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #df4b26; line-height:18px; margin-bottom:20px; }
+p{ font-family:Arial, Helvetica, sans-serif; font-size:15px; color: #0e0e0e; line-height:22px; margin-bottom:20px; }
+
+ul{ padding:0px; margin:0px; margin-bottom:10px; }
+li{ padding:0px; margin:0px; font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:28px; list-style:none; background:url(images/dcl-bullet.png) left top no-repeat; padding-left:20px; margin-bottom:20px; text-align:left; background-position:0 .3em; }
+
+	
+header, footer, section, aside, nav, article {
+display: block;
+}	
+
+
+header, nav, footer {
+	margin:0px 0px;
+}
+
+.inputbox{ font-family:Arial, Helvetica, sans-serif; font-size:15px; color: #000; line-height:30px; height:30px; border:1px solid #000; background:#FFF; width:100%; padding:5px 10px; border-radius:0px; }
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Text <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.prepand{ padding-top:5px; }
+.prepand2{ padding-top:10px; }
+.prepand3{ padding-top:15px; }
+.prepand4{ padding-top:20px; }
+.prepand5{ padding-top:25px; }
+
+.align-center{ text-align:center; }
+
+.font{ font-family: 'proxima_nova_rgregular'; font-size:22px; font-weight:normal; color:#df4b26; line-height:25px; }
+	.font a{ color:#df4b26; border-bottom:1px solid #df4b26; }
+		.font a:hover{ color:#df4b26; border:0px; }
+.font2{ font-family: 'archivo_narrowregular'; font-size:20px; font-weight:normal; color:#df4b26; line-height:25px; }
+	.font2 a{ color:#df4b26; }
+		.font2 a:hover{ color:#0e0e0e; }
+.font3{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:25px; border-bottom:3px solid #ebebeb; padding-bottom:10px; margin-bottom:30px; }
+	.font3 a{ font-family: 'proxima_nova_rgregular'; color:#2e4d78; }
+		.font3 a:hover{ color:#0e0e0e; }
+.font3 span{ color:#2e4d78; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Text <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+header{
+	 width:100%;
+	 padding:25px 0px;
+	 float:left;
+	 position:relative;
+	}
+	
+.logo{
+	 width:auto;
+	 float:left;
+	 position:relative;
+	}
+	
+.header-right{
+			width:auto;
+			float:right;
+			position:relative;
+			}
+	
+	.calltoday{
+				width:auto;
+				padding:0px 40px 0px 0px;
+				float:left;
+				position:relative;
+				text-align:right;
+				}
+				
+		.calltoday p{ font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#383838; line-height:22px; margin-bottom:0px; }
+			.calltoday p a{ font-family: 'proxima_novasemibold'; font-weight:normal; color:#df4b26; }
+		.calltoday .fa{ font-size:20px; color:#df4b26; line-height:20px; margin-right:2px; }
+		
+	.header-button{
+					width:auto;
+					float:left;
+					position:relative;
+					}
+					
+		.header-button ul{ padding:0px; margin:0px; }
+		.header-button li{ padding:0px; margin:0px; background:none; list-style:none; display:inline-block; border-left:1px solid #bdbcbc; line-height:52px; position:relative; padding:0px 12px; background-position:0; }
+		.header-button li:first-child{ border:0px; padding-left:0px; }
+		.header-button li input{ vertical-align:middle; }
+		
+		.free-case{
+					width:auto;
+					padding:15px 15px;
+					background:#2e4d78 url(images/dcl-free-case.png) no-repeat;
+					border:0px;
+					font-family: 'archivo_narrowbold'; font-size:22px; font-weight:normal; color:#FFF; line-height:22px; display:inline-block; text-transform:uppercase;
+					border-radius:5px;
+					cursor:pointer;
+					}
+						
+		.search-button{
+						width:28px;
+						background:url(images/dcl-search.png) no-repeat;
+						height:29px;
+						border:0px;
+						font-size:0px; 
+						display:inline-block;
+						cursor:pointer;
+						}
+						
+		.search-body{
+					width:390px;
+					padding:3px 3px;
+					background:#2e4d78;
+					float:left;
+					position:absolute;
+					right:6px;
+					bottom:-67px;
+					z-index:1;
+					border-radius:3px;
+					display:none;
+					}
+					
+			.search-inputbox{font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#383838; line-height:24px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:100%; padding:12px 15px; border-radius:3px; }
+						
+.free-case-popup{
+				width:450px;
+				padding:35px 25px 30px 25px;
+				background:#2e4d78;
+				float:left;
+				position:absolute;
+				left:0px;
+				top:0px;
+				text-align:center;
+				border-radius:5px;
+				z-index:10;
+				display:none;
+				}
+				
+	.free-case-cross{ width:auto; position:absolute; right:-38px; top:-33px; z-index:2; }
+				
+	.free-case-popup h2{ font-family: 'archivo_narrowbold'; font-size:35px; font-weight:normal; color:#FFF; line-height:40px; text-transform:uppercase; margin-bottom:25px; }
+	
+	.free-case-inputbox{font-family: 'proxima_nova_rgregular'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:28px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:95%; padding:15px 15px; border-radius:5px; margin-bottom:20px; }
+	.free-case-textarea{font-family: 'proxima_nova_rgregular'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:28px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:95%; padding:20px 0px 0px 15px; height:210px; border-radius:5px; margin-bottom:20px; }
+	
+	.free-case-submit{
+					width:95%;
+					padding:15px 5px;
+					background:#df4b26 url(images/dcl-orange.gif) repeat;
+					border:0px;
+					font-family: 'proxima_novasemibold'; font-size:22px; font-weight:normal; color:#FFF; line-height:28px; display:inline-block; text-transform:uppercase; text-align:center;
+					border-radius:5px;
+					cursor:pointer;
+					box-shadow:0px 3px 3px 0px #1b2e47;
+					}
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+		
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Navigation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+nav{
+	 width:100%;
+	 float:left;
+	 position:relative;
+	 text-align:center;
+	}
+	
+	nav ul{ margin:0px; padding:0px; }
+	nav ul li{ padding:0px; margin:0px; background:none; font-family: 'archivo_narrowbold'; font-size:21px; font-weight:normal; color:#FFF; line-height:62px; list-style:none; display:inline-block; text-transform:uppercase; position:relative; margin:0px 0px; margin-left:-4px; background-position:0; }
+		nav ul li a{ color:#FFF; display:block; padding:0px 40px; }
+			nav ul li a:hover{ color:#FFF; background:#df4b26; }
+	nav ul li.current-menu-item a, nav ul li.current_page_parent a{ color:#FFF; background:#df4b26; }
+	nav ul li:first-child{ border:none; }
+	
+nav .fa{ font-size:22px; color:#FFF; line-height:22px; margin-left:5px; }
+	
+.lihoverclass{
+display: block;
+color:#FFF; 
+background:#df4b26;
+}
+
+
+	
+/*1st sub level menu*/
+nav ul li ul{
+position:absolute;
+visibility: hidden;
+z-index:100;
+float:left;
+width:252px !important;
+background:#df4b26;
+margin-top:0px;
+text-align:left;
+}
+
+nav ul li ul li{ padding:0px; margin:0px; border:0px; width:100%; text-transform:none; font-size:15px; float:left; }	 
+	 
+/* Sub level menu links style */
+nav ul li ul li a{
+padding:4px 10px 4px 10px;
+line-height:28px;
+color:#FFF; 
+cursor:pointer;
+}
+
+nav ul li ul li a:hover{
+color:#FFF;
+background:#2e2727;
+}
+
+nav ul li ul li a.fixed{
+color:#FFF;
+background:#2e2727;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Navigation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Index Slide <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.index-header{
+					 width:100%;
+					 padding:15% 2%;
+					 float:left;
+					 position:relative;
+					 text-align:center;
+					}
+					
+	section.index-header h1{ font-family: 'archivo_narrowbold'; font-size:55px; font-weight:normal; color:#FFF; line-height:60px; text-transform:uppercase; margin-bottom:0px; }
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Index Slide <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Block Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.block-body{
+					 width:100%;
+					 padding:70px 0px 40px 0px;
+					 float:left;
+					 position:relative;
+					}
+					
+.main-body{
+			width:100%;
+			float:left;
+			position:relative;
+			}
+			
+/* -------------- Start Left ----------------- */
+
+.left{
+	  width:57%;
+	  float:left;
+	  position:relative;
+	}
+	
+.left-content{
+			  width:100%;
+			  float:left;
+			  position:relative;
+			}
+			
+	.left-content h2{ font-family: 'archivo_narrowbold'; font-size:40px; font-weight:normal; color:#df4b26; line-height:45px; text-transform:uppercase; margin-bottom:25px; }
+	.left-content h3{ font-family: 'archivo_narrowbold'; font-size:35px; font-weight:normal; color:#df4b26; line-height:40px; margin-bottom:25px; }
+	
+	.left-content p{ font-family: 'proxima_novalight'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:25px; }
+		.left-content p a{ color:#0e0e0e; }
+		
+	.left-content ul{ padding:0px; margin:0px; margin-bottom:10px; }
+	.left-content li{ padding:0px; margin:0px; font-family: 'proxima_novalight'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:28px; list-style:none; background:url(images/dcl-bullet.png) left top no-repeat; padding-left:20px; margin-bottom:20px; text-align:left; background-position:0 .3em; }
+		.left-content li a{ font-family: 'proxima_nova_rgregular'; color:#2e4d78; }
+			.left-content li a:hover{ color:#0e0e0e; }
+			
+			
+			.left-content ul li ul{ margin-left:20px; margin-top:10px; }
+			.left-content ul li ul li{ padding:0px; margin:0px; font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#2e4d78; line-height:28px; list-style:none; background:url(images/dcl-bullet2.png) left top no-repeat; padding-left:20px; margin-bottom:5px; text-align:left; background-position:0 .4em; }
+				.left-content ul li ul li a{ color:#2e4d78; }
+					.left-content ul li ul li a:hover{ color:#0e0e0e; }
+	
+.image{
+	   float:right;
+	   text-align:center;
+	   margin-left:35px;
+	   margin-bottom:20px;
+	  }
+	  
+.image-font{ font-family: 'proxima_nova_rgregular'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-top:10px; }
+
+/* -------------- End Left ----------------- */
+
+
+/* -------------- Start Right ----------------- */
+
+.right{
+	  width:38%;
+	  float:right;
+	  position:relative;
+	}
+	
+.form-body{
+			width:100%;
+			padding:30px 30px;
+			background:#2e4d78;			
+			float:left;
+			position:relative;
+			border-radius:5px;
+			text-align:center;
+			}
+			
+	.form-body h2{ font-family: 'archivo_narrowbold'; font-size:35px; font-weight:normal; color:#FFF; line-height:40px; text-transform:uppercase; margin-bottom:25px; }
+	
+	.form-inputbox{font-family: 'proxima_nova_rgregular'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:28px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:100%; padding:15px 15px; border-radius:5px; }
+	.form-selectbox{font-family: 'proxima_nova_rgregular'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:28px; height:58px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:100%; padding:0px 0px 0px 15px; border-radius:5px; }
+	.form-textarea{font-family: 'proxima_nova_rgregular'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:28px; background:#FFF url(images/dcl-form-inputbox.gif) left top repeat-x; border:1px solid #1b3353; width:100%; padding:20px 0px 0px 15px; height:210px; border-radius:5px; }
+	
+	.form-submit{
+				width:100%;
+				padding:15px 5px;
+				background:#df4b26 url(images/dcl-orange.gif) repeat;
+				border:0px;
+				font-family: 'proxima_novasemibold'; font-size:22px; font-weight:normal; color:#FFF; line-height:28px; display:inline-block; text-transform:uppercase; text-align:center;
+				border-radius:5px;
+				cursor:pointer;
+				box-shadow:0px 3px 3px 0px #1b2e47;
+				}
+				
+.right-logo{
+			width:100%;
+			background:#FFF;
+			border:1px solid #ebebeb;			
+			float:left;
+			position:relative;
+			border-radius:5px;
+			text-align:center;
+			margin-top:30px;
+			}
+			
+	.right-logo ul{ padding:0px; margin:0px; }
+	.right-logo li{ padding:0px; margin:0px; background:none; list-style:none; display:inline-block; line-height:0; width:25%; float:left; border-left:1px solid #f5f5f5; padding:8px 5px; text-align:center; background-position:0; }
+	.right-logo li:first-child{ border:0px; }
+	
+.success-stories{
+				width:100%;
+				padding:25px 20px 25px 20px;
+				background:#FFF;
+				border:1px solid #ebebeb;			
+				float:left;
+				position:relative;
+				border-radius:5px;
+				margin-top:30px;
+				}
+				
+	.success-stories h3{ font-family: 'archivo_narrowbold_italic'; font-size:30px; font-weight:normal; color:#2e4d78; line-height:35px; text-transform:uppercase; margin-bottom:25px; }
+	.success-stories p{ font-family: 'proxima_novalight_italic'; font-size:18px; font-weight:normal; color:#0e0e0e; line-height:25px; margin-bottom:25px; }
+		.success-stories p a{ font-family: 'proxima_novasemibold'; font-weight:normal; color:#2e4d78; border-bottom:1px solid #d8dbe2; }
+			.success-stories p a:hover{ color:#0e0e0e; border:0px; }
+			
+.practice-areas{
+				width:100%;
+				padding:20px 25px;
+				background:#FFF;
+				border:1px solid #ebebeb;			
+				float:left;
+				position:relative;
+				border-radius:5px;
+				margin-top:30px;
+				}
+				
+	.practice-areas h3{ font-family: 'archivo_narrowbold'; font-size:35px; font-weight:normal; color:#2e4d78; line-height:40px; margin-bottom:20px; }
+	
+	.practice-areas ul{ padding:0px; margin:0px; }
+	.practice-areas li{ padding:0px; margin:0px; font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#2e4d78; line-height:28px; list-style:none; background:url(images/dcl-bullet2.png) left top no-repeat; padding-left:20px; margin-bottom:5px; text-align:left; background-position:0 .4em; }
+		.practice-areas li a{ color:#2e4d78; }
+			.practice-areas li a:hover{ color:#0e0e0e; }
+
+/* -------------- End Right ----------------- */
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Block Body <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Bottom <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+section.bottom{
+			 width:100%;
+			 padding:60px 0px 20px 0px;
+			 float:left;
+			 position:relative;
+			}
+			
+.bottom-left{
+			width:28%;
+			padding:0px 0px 15px 0px;
+			float:left;
+			position:relative;
+			}
+			
+	.bottom-left h2{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#df4b26; line-height:30px; margin-bottom:20px; }
+	
+	.bottom-left ul{ padding:0px; margin:0px; }
+	.bottom-left li{ padding:0px; margin:0px; font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#FFF; line-height:25px; list-style:none; text-align:left; background:url(images/dcl-icon.png) left top no-repeat; padding-left:25px; background-position:0 .8em; }
+		.bottom-left li a{ color:#FFF; display:block; padding:10px 0px; border-top:1px solid #393636; }
+	.bottom-left li a.first{ border-top:0px; }
+			
+.bottom-mid{
+			width:41%;
+			padding:0px 0px 25px 8%;
+			float:left;
+			position:relative;
+			}
+			
+	.bottom-mid h2{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#df4b26; line-height:30px; margin-bottom:20px; }
+			
+	.bottom-mid p{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#FFF; line-height:25px; margin-bottom:20px; }
+	
+	.bottom-mid table tr td{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#FFF; line-height:25px; }
+		.bottom-mid table tr td a{ color:#FFF; }	
+	.bottom-mid table tr td strong{ color:#01a9e8; font-weight:normal; }	
+	.bottom-mid table tr td span{ font-family: 'proxima_nova_rgregular'; }	
+	
+	.bottom-mid table tr td:nth-child(1){ color:#df4b26; }
+			
+.bottom-right{
+			width:27%;
+			padding:55px 0px 25px 0px;
+			float:right;
+			position:relative;
+			}
+			
+.bottom-nav{
+			width:100%;
+			padding:25px 0px 0px 0px;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+			
+	.bottom-nav .fa{ margin:0px 4px 18px 4px; }
+	.bottom-nav .fa img{ vertical-align:top; }
+	
+	.bottom-nav ul{ margin:0px 0px; }
+	.bottom-nav ul li{ margin:0px 0px; padding:0px; font-family: 'proxima_novalight'; font-size:18px; font-weight:normal; color:#FFF; line-height:22px; list-style:none; display:inline-block; background:url(images/dcl-bottom-line.png) left no-repeat; padding:0px 11px 0px 16px; margin-bottom:15px; background-position:0; }
+		.bottom-nav ul li a{ color:#FFF; display:block; }
+			.bottom-nav ul li a:hover{ color:#e3e3e3; }
+	.bottom-nav ul li a.fixed{ color:#e3e3e3; }
+	.bottom-nav ul li:first-child{ background:none; }
+	
+	.bottom-nav p{ font-family: 'proxima_novalight'; font-size:16px; font-weight:normal; color:#e3e3e3; line-height:22px; margin-bottom:0px; }
+		.bottom-nav p a{ color:#e3e3e3; }
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Bottom <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer{
+	 width:100%;
+	 padding:25px 0px;
+	 float:left;
+	 position:relative;
+	 text-align:center;
+	}
+	
+	footer p{ font-family: 'proxima_novalight'; font-size:14px; font-weight:normal; color:#e3e3e3; line-height:20px; margin-bottom:0px; }
+		footer p a{ color:#e3e3e3; }
+			footer p a:hover{ color:#FFF; border-bottom:1px solid #FFF; }
+				
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Index Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.index-content{
+			  width:100%;
+			  padding:50px 0px 0px 0px;
+			  float:left;
+			  position:relative;
+			  border-top:2px solid #ebebeb;
+			  margin-top:20px;
+			}
+			
+	.index-content h2{ font-family: 'archivo_narrowbold'; font-size:40px; font-weight:normal; color:#df4b26; line-height:45px; text-transform:uppercase; margin-bottom:25px; }
+	
+	.index-content p{ font-family: 'proxima_novalight'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:25px; }
+		.index-content p a{ color:#0e0e0e; }
+		
+	.index-content ul{ padding:0px; margin:0px; width:100%; float:left; margin-bottom:20px; }
+	.index-content li{ padding:0px; margin:0px; background:none; list-style:none; line-height:0px; display:inline-block; width:31%; position:relative; float:left; margin:4px 4px; background-position:0; }
+	.index-content li img{ width:100%; }
+	
+.index-image-popup{
+					width:100%;
+					background:url(images/dcl-shade.png) repeat;
+					height:100%;
+					float:left;
+					position:absolute;
+					left:0px;
+					top:0px;
+					z-index:1;
+					text-align:center;
+					}
+					
+	.index-image-popup h3{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#FFF; line-height:30px; margin-bottom:0px; padding-top:11%; }
+		.index-image-popup h3 a{ color:#FFF; display:block; font-family: 'archivo_narrowbold'; font-size:25px; }
+			.index-image-popup h3 a:hover{color:#df4b26; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Index Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Privacy Policy <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.privacy-policy{
+			  width:100%;
+			  float:left;
+			  position:relative;
+			}
+			
+	.privacy-policy h2{ font-family: 'archivo_narrowbold'; font-size:40px; font-weight:normal; color:#df4b26; line-height:45px; text-transform:uppercase; margin-bottom:25px; }
+	.privacy-policy h3{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#2e4d78; line-height:30px; padding-top:15px; margin-bottom:15px; }
+	
+	.privacy-policy p{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:20px; }
+		.privacy-policy p a{ color:#0e0e0e; }
+		
+	.privacy-policy ul{ padding:0px; margin:0px; margin-bottom:10px; }
+	.privacy-policy li{ padding:0px; margin:0px; font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:28px; list-style:none; background:url(images/dcl-bullet.png) left top no-repeat; padding-left:20px; margin-bottom:20px; text-align:left; background-position:0 .3em; }
+		.privacy-policy li a{ font-family: 'proxima_nova_rgregular'; color:#2e4d78; }
+			.privacy-policy li a:hover{ color:#0e0e0e; }
+			
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Privacy Policy <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Testimonials <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.testimonials-content{
+					  width:100%;
+					  float:left;
+					  position:relative;
+					}
+			
+	.testimonials-content h2{ font-family: 'archivo_narrowbold'; font-size:40px; font-weight:normal; color:#df4b26; line-height:45px; text-transform:uppercase; margin-bottom:25px; }
+	.testimonials-content h3{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#2e4d78; line-height:30px; background:url(images/dcl-bullet.png) left top no-repeat; padding-left:20px; margin-bottom:20px; text-align:left; margin-bottom:15px; background-position:0 .3em; }
+	
+	.testimonials-content p{ font-family: 'proxima_novalight_italic'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:30px; }
+		.testimonials-content p a{ color:#0e0e0e; }
+	.testimonials-content p span{ font-family: 'proxima_nova_rgregular'; }
+		
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Testimonials <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Contact <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.contact-left{
+			  width:46%;
+			  float:left;
+			  position:relative;
+			}
+			
+	.contact-left h2{ font-family: 'archivo_narrowbold'; font-size:40px; font-weight:normal; color:#df4b26; line-height:45px; text-transform:uppercase; margin-bottom:25px; }
+	.contact-left h3{ font-family: 'proxima_novasemibold'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:25px; margin-bottom:5px; }
+	
+	.contact-left p{ font-family: 'proxima_novalight'; font-size:22px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:5px; }
+		.contact-left p a{ color:#0e0e0e; }
+		
+	.contact-left table{ margin-top:30px; margin-bottom:30px; }
+	.contact-left table tr td{ font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:25px; }
+		.contact-left table tr td a{ color:#0e0e0e; }	
+	.contact-left table tr td strong{ color:#df4b26; font-family: 'proxima_novasemibold'; font-size:22px; font-weight:normal; }	
+	.contact-left table tr td a span{ color:#2e4d78; }	
+	
+	.contact-logo{
+				width:100%;
+				padding-top:30px;
+				border-top:3px solid #ebebeb;			
+				float:left;
+				position:relative;			
+				text-align:center;
+				margin-top:50px;
+				}
+			
+	.contact-left ul{ padding:0px; margin:0px; width:85%; float:left; background:#FFF;	border:1px solid #ebebeb; border-radius:5px; }
+	.contact-left li{ padding:0px; margin:0px; background:none; list-style:none; display:inline-block; line-height:0; width:25%; float:left; border-left:1px solid #f5f5f5; padding:8px 5px; text-align:center; background-position:0; }
+	.contact-left li:first-child{ border:0px; }
+		
+.contact-right{
+			  width:50%;
+			  float:right;
+			  position:relative;
+			}
+			
+.city{
+	 width:49%;
+	 float:left;
+	 position:relative;
+	}
+
+.state{
+	   width:49%;
+	   float:right;
+	   position:relative;
+	  }
+		
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Contact <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Blog <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.blog-left{
+			width:68%;
+			float:left;
+			position:relative;
+			}
+			
+	.blog-post{
+				width:48%;
+				padding:0px 0px 20px 0px;
+				border-bottom:3px solid #ebebeb;
+				float:left;
+				position:relative;
+				margin-bottom:50px;
+				}
+				
+		.blog-post img{ margin-bottom:10px; }
+		
+		.blog-post .fa{ font-size:20px; color:#df4b26; line-height:20px; }
+		
+		.blog-post h3{ font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#2e4d78; line-height:30px; margin-bottom:15px; }
+			.blog-post h3 a{ font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#2e4d78; }
+		
+		.blog-post p{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:25px; margin-bottom:15px; }
+			.blog-post p a{ font-family: 'proxima_nova_rgregular'; color:#2e4d78; }
+				.blog-post p a:hover{ color:#0e0e0e; }
+		.blog-post p span{ color:#2e4d78; }
+		
+	.blog-post2{
+				width:48%;
+				padding:0px 0px 20px 0px;
+				border-bottom:3px solid #ebebeb;
+				float:right;
+				position:relative;
+				margin-bottom:50px;
+				}
+				
+		.blog-post2 img{ margin-bottom:10px; }
+		
+		.blog-post2 .fa{ font-size:20px; color:#df4b26; line-height:20px; }
+		
+		.blog-post2 h3{ font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#2e4d78; line-height:30px; margin-bottom:15px; }
+			.blog-post2 h3 a{ font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#2e4d78; }
+		
+		.blog-post2 p{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:25px; margin-bottom:15px; }
+			.blog-post2 p a{ font-family: 'proxima_nova_rgregular'; color:#2e4d78; }
+				.blog-post2 p a:hover{ color:#0e0e0e; }
+		.blog-post2 p span{ color:#2e4d78; }
+		
+		
+	.numbering{
+				width:100%;
+				float:left;
+				position:relative;
+				text-align:center;
+				}
+				
+		.numbering li{ padding:0px; margin:0px; font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#0e0e0e; line-height:25px; list-style:none; display:inline-block; background:none; padding-left:10px; padding-right:8px; margin-bottom:8px; text-align:center; background-position:0; }
+			.numbering li a{ color:#0e0e0e; }
+				.numbering li a:hover{ color:#df4b26; }
+		.numbering li a.fixed{ color:#df4b26; }
+	
+			
+.blog-right{
+			width:28%;
+			float:right;
+			position:relative;
+			}
+			
+				
+	.blog-list{
+				width:100%;
+				background:#FFF;
+				border:1px solid #ebebeb;			
+				float:left;
+				position:relative;
+				border-radius:5px;
+				}
+				
+		.blog-list-body{
+						width:100%;
+						padding:15px 20px 10px 20px;
+						border-top:3px solid #ebebeb;			
+						float:left;
+						position:relative;
+						}
+				
+			.blog-list-body h3{ font-family: 'archivo_narrowregular'; font-size:30px; font-weight:normal; color:#2e4d78; line-height:35px; margin-bottom:15px; }
+			
+			.blog-list-body ul{ padding:0px; margin:0px; }
+			.blog-list-body li{ padding:0px; margin:0px; font-family: 'proxima_nova_rgregular'; font-size:20px; font-weight:normal; color:#2e4d78; line-height:24px; list-style:none; background:url(images/dcl-bullet2.png) left top no-repeat; margin-bottom:5px; text-align:left; padding:7px 0px 0px 18px; border-top:1px solid #f0f0f0; background-position:0 .5em; }
+				.blog-list-body li a{ color:#2e4d78; }
+					.blog-list-body li a:hover{ color:#0e0e0e; }
+			.blog-list-body li:first-child{ border:0px; }
+			
+			
+		.blog-logo{
+					width:100%;
+					background:#FFF;
+					border:1px solid #ebebeb;			
+					float:left;
+					position:relative;
+					border-radius:5px;
+					text-align:center;
+					margin-top:20px;
+					}
+					
+			.blog-logo ul{ padding:0px; margin:0px; }
+			.blog-logo li{ padding:0px; margin:0px; background:none; list-style:none; display:inline-block; line-height:0; width:50%; float:left; border-left:1px solid #f5f5f5; border-bottom:1px solid #f5f5f5; padding:9px 5px; text-align:center; background-position:0; }
+			.blog-logo li:nth-child(1){ border-left:0px; }
+			.blog-logo li:nth-child(3){ border-left:0px; border-bottom:0px; }
+			.blog-logo li:nth-child(4){ border-bottom:0px; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Blog <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start Blog Details <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.blog-share-button{
+				 width:100%;
+				 padding:3px 6px;
+				 background:#FFF;
+				 float:left;
+				 position:relative;
+				 margin-top:3px;
+				 margin-bottom:25px;
+				}
+				
+	.blog-share-button img{ margin:3px 10px 3px 0px; vertical-align:middle; }
+				
+.blog-details-content{
+					 width:100%;
+					 float:left;
+					 position:relative;
+					}
+					
+	.blog-details-content h1{ font-family: 'archivo_narrowbold'; font-size:35px; font-weight:normal; color:#df4b26; line-height:40px; margin-bottom:5px; }
+	.blog-details-content h2{ font-family: 'archivo_narrowbold'; font-size:33px; font-weight:normal; color:#df4b26; line-height:40px; margin-bottom:5px; }
+	.blog-details-content h3{ font-family: 'archivo_narrowbold'; font-size:25px; font-weight:normal; color:#2e4d78; line-height:30px; margin-bottom:25px; }
+	.blog-details-content p{ font-family: 'proxima_novalight'; font-size:20px; font-weight:normal; color:#0e0e0e; line-height:28px; margin-bottom:25px; }
+	
+.previous-next{
+			width:100%;
+			padding:20px 0px 0px 0px;
+			border-top:3px solid #ebebeb;
+			float:left;
+			position:relative;
+			text-align:center;
+			margin-top:20px;
+			}
+			
+	.previous-next li{ padding:0px; margin:0px; font-family: 'archivo_narrowregular'; font-size:22px; font-weight:normal; color:#2e4d78; line-height:25px; list-style:none; display:inline-block; background:none; padding-left:18px; padding-right:18px; margin-bottom:10px; text-align:center; background-position:0; }
+		.previous-next li a{ color:#2e4d78; }
+			.previous-next li a:hover{ color:#df4b26; }
+	.previous-next li a.fixed{ color:#df4b26; }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> End Blog Details <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */

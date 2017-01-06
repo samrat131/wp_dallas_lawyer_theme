@@ -1,0 +1,27 @@
+.wpcf7-response-output{line-height: normal; margin:1em 0.5em 1em!important; color: #fff;}
+.wpcf7-form .input-wrap, .wpcf7-form .main-body{margin-bottom:20px;}
+.wpcf7-validation-errors,.wpcf7-validation-success{border: none!important;}
+ul.cnss-social-icon{margin-bottom: 15px;}
+.blog-post .entry-title, .blog-post2 .entry-title{height: 60px;}
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.wp-pagenavi{
+			width:100%;
+			float:left;
+			position:relative;
+			text-align:center;
+			}
+	.wp-pagenavi a, .wp-pagenavi span, span.edit-link{ color:#0e0e0e; padding:0px; margin:0px; font-family: 'archivo_narrowregular'; font-size:25px; font-weight:normal; color:#0e0e0e; line-height:25px; list-style:none; display:inline-block; background:none; padding-left:10px; padding-right:8px; margin-bottom:8px; text-align:center; background-position:0; }
+		.wp-pagenavi a:hover{ color:#df4b26; }
+	.wp-pagenavi span.current{ color:#df4b26; }
